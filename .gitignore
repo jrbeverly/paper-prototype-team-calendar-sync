@@ -1,0 +1,24 @@
+# Build artifacts
+artifacts/
+
+# .NET build output
+**/bin/
+**/obj/
+
+# User-specific IDE files
+*.user
+.vs/
+.idea/
+*.suo
+
+# Local environment overrides
+.env.local
+
+# Frontend
+node_modules/
+src/Web/dist/
+
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup

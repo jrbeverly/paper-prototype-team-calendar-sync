@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Api": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AWS_ACCESS_KEY_ID": "test",
+        "AWS_SECRET_ACCESS_KEY": "test"
+      }
+    }
+  }
+}
